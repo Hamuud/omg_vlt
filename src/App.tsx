@@ -32,8 +32,8 @@ export const App: React.FC = () => {
           <div>
             <MainButton
               image="./onlyBG.png"
-              title="OnlyFans(Ви цього дочекались!)"
-              link="https://send.monobank.ua/jar/61gEWCDfJz"
+              title="OnlyFans (Ви цього дочекались!)"
+              link="https://pin.it/3WVXmMI"
             />
           </div>
 
