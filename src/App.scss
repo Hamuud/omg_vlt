@@ -1,3 +1,52 @@
 .starter {
+  height: 100vh;
   font-size: 18px;
+  background-color: #ff4653;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 60px;
+  margin-bottom: 16px;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.description {
+  text-align: center;
+
+  &__name {
+    margin: 0;
+    margin-top: 24px;
+    font-weight: 700;
+    padding: 0;
+    color: #fff;
+  }
+
+  &__bio {
+    font-size: 16px;
+    margin: 0;
+    margin-top: 4px;
+    padding: 0;
+
+    font-weight: 500;
+    color: #fff;
+  }
 }
