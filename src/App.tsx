@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.scss';
-import Button from './Components/Button/Button';
+import MainButton from './Components/MainButton/MainButton';
 
 export const App: React.FC = () => {
   return (
@@ -19,28 +19,31 @@ export const App: React.FC = () => {
             <h2 className="description__bio">читаю книги, стимулюю розбрат і проституцію / голівка тві</h2>
           </div>
         </div>
-        <div>
-          <Button
-            title="Twitter (X)"
-            linkApp="https://twitter.com/omg_vlt"
-            image="./iconTW.png"
-          />
-        </div>
+        <div className="button__section">
 
-        <div>
-          <Button
-            title="OnlyFans (Ви цього дочекались!)"
-            linkApp="https://send.monobank.ua/jar/61gEWCDfJz"
-            image="./onlyBG.png"
-          />
-        </div>
+          <div>
+            <MainButton
+              image="./iconTW.png"
+              title="Twitter (X)"
+              link="https://twitter.com/omg_vlt"
+            />
+          </div>
 
-        <div>
-          <Button
-            title="На машину ЗСУ"
-            linkApp="https://send.monobank.ua/jar/61gEWCDfJz"
-            image="./money.png"
-          />
+          <div>
+            <MainButton
+              image="./onlyBG.png"
+              title="OnlyFans(Ви цього дочекались!)"
+              link="https://send.monobank.ua/jar/61gEWCDfJz"
+            />
+          </div>
+
+          <div>
+            <MainButton
+              image="./money.png"
+              title="На машину ЗСУ"
+              link="https://send.monobank.ua/jar/61gEWCDfJz"
+            />
+          </div>
         </div>
       </div>
     </div>

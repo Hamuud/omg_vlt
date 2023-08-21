@@ -1,4 +1,7 @@
 .starter {
+  font-family: 'Inter';
+  font-weight: 700;
+  color: #fff;
   height: 100vh;
   font-size: 18px;
   background-color: #ff4653;
@@ -11,6 +14,10 @@
 
   margin-top: 60px;
   margin-bottom: 16px;
+}
+
+.button__section {
+  text-align: center;
 }
 
 .avatar {
